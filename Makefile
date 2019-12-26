@@ -5,7 +5,7 @@ all: Re Vg
 Re: Re_expression.cc
 	g++ $^ -o $@ $(CFLAGS)
 Vg: Vags.c
-        gcc $^ -o $@ $(CFLAGS)
+	gcc $^ -o $@ $(CFLAGS)
 
 check: 
 	@echo Done
