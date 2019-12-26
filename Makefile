@@ -1,9 +1,9 @@
 CFLAGS = -Wall -Werror 
 
-all: Re_expression
+all: Re
 
-Re_expression: Re_expression.cc
-	g++ $^ -o $@ $(LDFLAGS)
+Re: Re_expression.cc
+	g++ $^ -o $@ $(CFLAGS)
 
 check: 
 	@echo Done
@@ -12,5 +12,4 @@ distcheck:
 	@echo
 
 clean:
-	@rm -vf *.o Re_expression
-
+	@rm -vf Re
