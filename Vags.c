@@ -6,8 +6,7 @@ int sum(int a, ...)
 {
     va_list arg_p;
     va_start(arg_p, a);
-    int SUM;
-    int b;
+    int SUM, b;
     b = va_arg(arg_p, int);
     printf("%d\n", b);
     int i = 0 ;

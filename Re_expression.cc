@@ -12,14 +12,14 @@ int main()
     {
         cout << "ture：" << result[1] << endl;
         cout << result.size();
-        for(int i; i <= 3; i++)
+        for(int i = 0; i <= 3; i++)
         {
             cout << result[i] << " " << endl; 
         }
     }
     else
     {
-        cout << "fail:" << endl; 
+        cout << "fail" << endl; 
     }
     return 0;
 }
