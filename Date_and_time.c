@@ -10,6 +10,6 @@ int main()
     time(&final_t);
     Now = localtime(&final_t);
     
-    printf("Startime = %ld\n, loacltime = %s", first_t/(3600 * 24 * 365), asctime(Now));
+    printf("Startime = %ld\nloacltime = %s", first_t/(3600 * 24 * 365), asctime(Now));
     return 0;
 }
